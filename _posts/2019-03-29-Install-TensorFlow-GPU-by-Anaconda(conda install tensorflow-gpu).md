@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)
-subtitle:   It might be the simplest way to install Tensorflow or Tensorflow-GPU by conda install in the conda environment
-date:       2019-03-29
-author:     Wang Pei
+title:      软技能—代码之外的生存指南
+subtitle:   程序员的自我修养
+date:       2020-08-23
+author:     Wang Ruolan
 header-img: img/art-Anaconda-TensorFlow.jpg
 catalog: true
 tags:
@@ -14,90 +14,79 @@ tags:
 ---
 
 
-# Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)
+# 代码之外的生存指南
 
-It might be the simplest way to install Tensorflow or Tensorflow-GPU by conda install in the conda environment  
---
+### 内容简介
 
-Nowadays, there are many tutorials that instruct how to install tensorflow or tensorflow-gpu. However, some people may feel it too complex just like me, because in those ways, you should download and install [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us), and then download and install [CUDA](https://developer.nvidia.com/cuda-downloads) (users need to pay attention to the version), afterwards you may sign an agreement and download cuDNN in [NVIDIA Developer](https://developer.nvidia.com/cudnn). Next, install python, and pip install tensorflow-gpu and so on. It's not esay for developer to do these, let alone it might causes some other error such as **version not match**, or **conflict between other python libraries** and so on. Moreover, if you want to [install tensorflow by compilation](https://www.tensorflow.org/install/gpu), it may take much more time.  
+这是一本真正从“人”的角度关注技术从业者长期发展的书。书中的论述内容既设计生活习惯，又包括思维方式，凸显技术中“人”的因素，全面解析技术从业者所需要知道的所有软技能。本书聚焦到生活的方方面面，教我们如何提高自己的工作效率，如何投资不动产，如何关注自身的健康，如何营销自己，以及如何培养持久的专注力让工作富有成效。本书共分为职业篇、自我营销篇、学习篇、生产力篇、理财篇、健身篇、精神篇这七篇，基本较为全面地概括了技术从业者所需的所有“软技能”。通过阅读此书，编程人员甚至于其他行业从业者都能够从多个角度积极思考自己的职业生涯，丰富自己的生活。
 
-Thus I strongly reconmend you not to do this, there's a much easier way to install this. Please read the following article.
+### 书摘
 
----
+#### 第2章：从非同凡响开始：绝不要做他人都在做的事 
 
-## Install Anaconda
->[Anaconda](https://www.anaconda.com/) is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.   
+- 只有你开始把自己当作一个企业去思考时，你才能开始做出良好的商业决策。
+- 停止用“我”和“我想要什么”来思考。你应当开始思考对他人而言什么才最重要，什么才是他们需要的。
 
-**You can download anaconda [here](https://www.anaconda.com/distribution/#download-section).**
+「批注：顾客是上帝，做技术也要考虑到用户真正的实际需求，而不仅仅只是技术有多先进，理论水平有多高。切实地解决用户或者业务方的一些实际问题，才是有价值的。」
 
-One of the advantage of anaconda is that it can create **isolated environment** in your device, and you can configure any libraries and toolkits in the 'env' without affect other environment. Once you are nor satisfied of your configuration, you can simplily delete the environment.
+#### 第10章：成为专业人士（养成良好的习惯）
 
-Note that in you are in **China**, download anaconda might take a long time due to some resons that cannot say. Instead, you can download it from [**Tsinghua mirror**](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/), and install it **manually**.  
+- 专业人士会严肃对待自己的责任和事业，愿意作出艰难的选择去做自己认为是正确的事情——往往还要自己承担代价。不管怎样，他引人注目，他恪尽职守，他始终如一。
+- 将品质管理应用到你工作的每个细节，而不仅仅是那些看似重要的部分，这一点非常重要。
+- 专业人士必须对工作的优先级做出艰难的抉择。不专业的开发人员经常浪费时间去画蛇添足，因为他们不能确定下一步要做什么，要么他们得一直让别人来帮自己设定工作的优先级。专业人士会评估需要完成的工作，判定优先级后再开始工作。
+- 专业人士有不可逾越的底线。
+- 如果你想改变自己的人生，那从改变自己的习惯开始。
+- 不要努力成为一个成功的人，而要努力成为一个有价值的人。
 
-After downloading this successfully, try to run the installation file.
-For example, if you use ubuntu, you can cd to the path of the sh file and run the following command:
+「批注：书中对专业人士这一篇的讲述看地我非常热血，这里一定是值得在每一次感到迷茫的时候反复阅读，反复思考，反复提醒自己要专业。」
 
-```bash
-./Anaconda3-5.3.1-Linux-x86_64.sh
-```
-***Attention that you should change the command above to your own installation file name.***
+#### 第19章 针对“码农”的营销基础课
 
-Then you will successfully install Anaconda!
+- 对于自己成为怎样的人，给世界呈现怎样的形象，你要谨慎决定。
+- 当你营销自己的时候，如果你所做的一切都只是为了自己的利益而不给别人带来真正的价值，那么即使你所做的都正确无误，那也无济于事。
+- 如果你真的想在自我营销方面获得成功，你就一定要学着克服我们大多数人都会有的一种恐惧——看起来像个傻瓜。
+- 营销的核心在于将一些人所需要的所期待的产品或者服务与产品或服务本身连接起来。
 
-## Create new environment by conda
+「批注：自我营销其实是很多时候我们无意识产生的一些行为的一个抽象概括，现在读到这里才发现，原来当时产生的想法，做出的行为就是在自我营销。」
 
-If you are unwilling to create conda environment (maybe because of lazy), you can skip this section. However, I strongly reconmend you to create this **for the convience in the future**.  
+#### 第35章 发现自己的知识短板
 
-Run the command below:
-```bash
-conda create -n tf
-```
-![picture1](/img/20190328post.jpg)
+- 专注于自身的强项，这没什么不妥，但有时候，如果弱点得不到解决，通常会成为你的职业或生活的桎梏。我们能发现并消除的知识短板越多，长久来看我们从中受益越多。
+- 我们总是倾向于掩饰自己的短板，而且我们也总是太忙，忙到无暇去填补它们。结果， 我们要么不能真正明白自己在做什么，要么为了避开自己的短板而采取低效的方法。
 
-'tf' is the name of your new conda environment, you can try other names as your own interest.
+「批注：所以在不那么着急赶路的时候，就应该给自己一些时间，补上自己的短板，否则长久来看会成为职业或生活的桎梏」
 
-For other management you conda env, you can read [this](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html?highlight=environment).
+#### 第36章 一切始于专注
 
-## Install Tensorflow
+-  你要激发自己的斗志，对抗各种让你分心的事情，只有打破它们，你才能升档到“高速”，将自己送入巡航状态。
+-  在开始一项任务之前，确保你已经做好一切可以让自己免受干扰的措施，不管是内部干扰还是外部干扰。 
 
-First, you need to change to the env you have just built by conda:
-```bash
-source activete tf
-```
-![picture2](/img/20190328post2.jpg)  
+「批注：自从我读到这里开始，我就在不短实践作者提出的一些方法，尽量在开始做一项工作之前摒弃掉一切可能会干扰自己的因素，这点还需多次训练。」
 
-For Chinese users, before starting the installation, you may change the source of conda as the same reason before. For more details, read the webcite of [Tsinghua Mirror](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/).
-Chinese users should type in this:
-```bash
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-conda config --set show_channel_urls yes
-```
+#### 第38章  番茄工作法
+
+-  番茄工作法只有被当作估算和评估工作的工具使用时，才能发挥它的真正威力。……你瞬间有能力去真正评估自己每日工作的努力程度，也能知晓自己的工作能力。
+-  对番茄工作法的正确理解令我的工作生活大为改观，它不仅能帮我能做更多事情，而且能让我可以尽情享受业余时间。  
+
+「批注：很久就知道番茄工作法，但是第一次整整理解番茄工作法。它可以起到督促人专注的作用，但更重要地，它应该被用来评估每周或者每日的工作学习量。」
+
+-  我总以为自己没有做更多的事情而感到内疚。这与我一天完成多少工作无关，就好像我永远不能放松似的。我总觉得自己应该在做事，以至于坐下来玩游戏时我都无法享受其中，因为我觉得自己在浪费时间，我本应该做更多的工作。  这个问题的根源在于，你无法准确地评估每天到底自己完成了多少任务，也没有为自己每天到底要完成多少任务设定明确的目标。也许，像我一样，你也试图通过列出一份每日任务清单来解决这一问题。这看起来似乎是一个好主意，但是，当你完成某些任务耗费的时间比你预计的要长的时候，你将备受打击。就算你每天累得像狗一样，还是无法完成清单上的任务，所以即使你竭尽全力还是觉得自己很失败。这可真令人沮丧。 
+
+「批注：以上这段话说的太恰如其分了，完完全全就描述了我这么多年来焦虑的一部分来源，我也是第一次发现，这种心理状态也是有据可依，有原因，有解决办法的。」
+
+#### 第41章 要不要多任务并行
+
+- 对于很多活动，我们可能会自认为是在进行多任务并行，但实际上我们做的不过是在不断地进行任务切换。
+
+「批注：然而任务切换导致效率低下。」
+
+#### 第66章 积极思考
+
+- 如果你不相信自己能够做到，你几乎做不成任何事情，你的思想对身体影响有多大、对你能获得成功的影响就有多大。「批注：做一件事情，首先应该是相信自己。」
+- 积极思考问题的根源是这样一种新年-你比你所处的环境更伟大。这种信念让你总能看到事物好的一面，因为无论身处何种环境，你都有能力改变自己的未来。这是人类成就的最高信念，是世界上最强大的信念。
+
+「批注：积极思考的心态理念非常重要，它影响着工作和生活的方方面面。」
 
 
-Afterwards, type in the command to install TensorFlow you need:
-```bash
-conda install tensorflow-gpu
-```
-![picture3](/img/20190328post3.jpg)  
 
-If you want to install a specific version of tensorflow-gpu or cpu veison, you can change the command like this:
-```bash
-conda install tensorflow-gpu=1.10.0  #if you want to install 1.10.0 version
-conda install tensorflow  #if you want to install cpu version
-```
-After anaconda solve the environment, you just need to type in 'y' to confirm the installation.  
-
-Anaconda will **automatically** install other libs and toolkits needed by tensorflow(e.g. CUDA, and cuDNN), so you have no need to worry about this.
---
-
-Type in `python` to enter the python environment.
-```python
-import tensorflow as tf
-tf.__version__
-```
-When you see the version of tensorflow, such as 1.10.0, you have successfully install it.
-
-That's all, Thank you.
-
-If you encounter any problems, you can open an issue in the **Comment area**.
+作者从本质上阐述了软技能，并且提供了很多培养人软技能的方法。我个人认为这是一本值得反复阅读的书籍。书里面也有从科学的角度阐述健身、维持身体健康的方法和重要性。关于健身，我在很早之前已经形成了自己的态度，所以作者写的这一章我大致略读了过去，因为和平常的观念和实践都很像。我坚持健身到现在已经6年了，抛开读研究生的时期过于忙碌很少健身，其他时候我基本一有机会就去锻炼，让脑袋放空。在投资部分，作者的致富手段主要是房地产投资，这也使得他成功达到自己预设的目标—三十三岁退休。作者对于投资秉持着这样一种态度—房产投资是抵抗通货膨胀最好的方法。文章中的一些观点态度值得借鉴，但是由于中美环境以及时代的差异，我认为作者的这种方法并不大适用于当前的中国社会。总体来讲，从这本书受益良多，后面也会再次重新阅读。
