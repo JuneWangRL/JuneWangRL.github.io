@@ -11,7 +11,7 @@ github_repo: "https://github.com/JuneWangRL/JuneWangRL.github.io.git" # you code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "每个人都有自己的际遇。"
+sidebar-about-description: "Take your job seriously, but don't take your life too seriously."
 sidebar-avatar: /img/photo_wrl.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
